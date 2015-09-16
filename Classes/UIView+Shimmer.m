@@ -10,7 +10,7 @@
 @implementation UIView (Shimmer)
 - (void)startShimmering
 {
-    id light = (id)[UIColor colorWithWhite:0 alpha:0.1].CGColor;
+    id light = (id)[UIColor colorWithWhite:1 alpha:1].CGColor;
     id dark  = (id)[UIColor blackColor].CGColor;
 
     CAGradientLayer *gradient = [CAGradientLayer layer];
